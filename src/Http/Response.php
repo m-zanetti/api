@@ -254,7 +254,7 @@ class Response extends IlluminateResponse
      *
      * @return void
      */
-    public static function setFormatters(array $formatters)
+    public static function setFormatters(array $formatters = [])
     {
         static::$formatters = $formatters;
     }
